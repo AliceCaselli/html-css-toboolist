@@ -29,14 +29,15 @@ header h1{
 
 /* main  */
 main{
-    background-color: white;
     margin: auto;
     max-width: 500px;
 }
 
 /* nav  */
 main nav{
+    background-color: white;
     padding: 20px 0px 20px 40px;
+    margin-bottom: 10px;
 }
 
 /* button customization  */
@@ -61,3 +62,40 @@ main nav{
 /* fine button customization  */
 
 /* fine nav  */
+
+.container{
+    background-color: white;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+h2{
+    margin-bottom: 8px;
+}
+
+.checklist li{
+    list-style-type: none;
+    padding-left: 5px;
+  }
+
+.checkmark{
+    display: inline-block;
+    margin-right: 5px;
+    width: 20px;
+    text-align: center;
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.tag{
+    display: inline;
+    margin-left: 10px;
+    background-color: #47adf1;
+    padding: 7px;
+    font-size: 10px;
+    color: white;
+    border-radius: 10px;
+
+}
